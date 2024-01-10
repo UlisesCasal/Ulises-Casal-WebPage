@@ -3,7 +3,8 @@ import react from "@astrojs/react";
 
 import tailwind from "@astrojs/tailwind";
 
-// https://astro.build/config
+import { defineConfig } from 'astro/config'
 export default defineConfig({
-  integrations: [react(), tailwind()]
-});
+  site: 'https://ulisescasal.github.io',
+  base: '/Ulises-Casal-WebPage',
+})
