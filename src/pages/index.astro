@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NavBar from '../components/NavBar.astro';
+import SobreMi from '../components/SobreMi.astro';
+import Background from '../components/Background.astro';
+import Habilidades from '../components/Habilidades.astro';
+import Experiencia from '../components/Experiencia.astro'
+---
+
+<Layout title="Ulises Casal">
+	<main>
+		<Background></Background>
+		<NavBar></NavBar>
+		<SobreMi></SobreMi>
+		<Habilidades></Habilidades>
+		<Experiencia></Experiencia>
+		
+
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+		font-family: 'Onest Variable', sans-serif;
+	}
+
+
+</style>
